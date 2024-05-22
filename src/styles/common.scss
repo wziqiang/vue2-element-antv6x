@@ -1,0 +1,76 @@
+//字体大小
+.f14px{font-size: 14px}
+//text-align模块
+.tac{text-align: center}
+.tal{text-align: left}
+.tar{text-align: right}
+//浮动样式
+.fltr{float: right;}
+.fltl{float: left;}
+//位置信息
+.pstf{position: fixed;}
+.pstr{position: relative;}
+.psta{position: absolute;}
+//flex 布局样式
+.fx {
+    display: flex;
+}
+.fx-s-center {
+    display: flex;
+    align-items: center;
+}
+
+.fx-none {
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.fx-full {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.fx-c {
+    display: flex;
+    flex-direction: column;
+/* 即c */
+}
+
+/* 主轴居中 */
+.fx-p-center {
+    display: flex;
+    justify-content: center;
+}
+.fx-p-end {
+    display: flex;
+    justify-content: end;
+}
+
+.fx-ps-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fx-p-between{
+    display: flex;
+    justify-content: space-between;
+}
+  
+  
+//透明度 模块
+.opa0_5{opacity:0.5}
+.opa1{opacity:1}
+/*滚动条隐藏*/
+.oan {
+    overflow: auto;
+    &::-webkit-scrollbar {
+      display: none;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+  }
+  //鼠标手指
+.cup{
+    cursor: pointer;
+  }
